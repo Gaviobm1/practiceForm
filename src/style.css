@@ -1,0 +1,15 @@
+input {
+  border: none;
+  background-color: beige;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+input:valid {
+  outline: 2px solid green;
+}
+
+input:invalid {
+  outline: 2px solid red;
+}
+
